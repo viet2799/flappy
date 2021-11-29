@@ -14,12 +14,12 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        
         Pause();
     }
 
     public void Play()
     {
+        Debug.Log("btn");
         score = 0;
         scoreText.text = score.ToString();
 
